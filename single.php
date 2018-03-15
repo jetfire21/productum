@@ -23,12 +23,12 @@ foreach ($categories as $cat) {
 
 if (is_category($products) || in_category($products)) {
     ?>
-					<!-- начало условия категории продукция -->
+	<!-- начало условия категории продукция -->
 
-					<?php while (have_posts()): the_post();?>
+	<?php while (have_posts()): the_post();?>
 
-								<div class="entry">
-									<h1 class="single"><?php
+			<div class="entry">
+				<h1 class="single"><?php
     if ($_SERVER['REQUEST_URI'] == '/materials/vacuum-technology/razjem-dlya-vacuumnogo-shlanga-hose-connector-2') {
 
             echo 'Разъем для вакуумного шланга / Hose connector Артикул № 390142-1';
@@ -37,48 +37,48 @@ if (is_category($products) || in_category($products)) {
         }
         ?></h1>
 
-										<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" rel="shadowbox[<?php the_ID();?>]">
-											<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>&w=455&h=250&zc=1&q=70" alt="<?php the_title();?>" width="455px" height="250px" class="products_img"> -->
-											<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" width="455px" height="250px" class="products_img">
-										</a>
-										<div style="float:left; width:190px">
-											<?php if (post_custom('Image2')) {?>
-											<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>" rel="shadowbox[<?php the_ID();?>]">
-												<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
-												<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
-											</a>
-											<?php if (post_custom('Image3')) {?>
-											<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>" rel="shadowbox[<?php the_ID();?>]">
-												<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
-												<img srcc="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
-											</a><?php }?>
-											<?php if (post_custom('Image4')) {?>
-											<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>" rel="shadowbox[<?php the_ID();?>]">
-												<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
-												<img srcc="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
-											</a><?php }?>
-											<?php if (post_custom('Image5')) {?>
-											<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>" rel="shadowbox[<?php the_ID();?>]">
-												<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
-												<img srcc="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
-											</a><?php }?>
-											<?php }?>
-											<div class="h_2">Наличие: <?php if (post_custom('Available') == 'да') {?>
-												<!-- <img src="<?php echo bloginfo('template_url'); ?>/images/tick_circle.png" width=16 height=16> -->
-												<!-- <img src="<?php echo bloginfo('template_url'); ?>/images/a21/check-2.png" width=16 height=16> -->
-												<!-- <i class="fa fa-check-circle" aria-hidden="true"></i> -->
-												<i class="icon-ok-circled" aria-hidden="true"></i>
-												<!-- &nbsp;<font style="color:green">Есть</font> -->
-												&nbsp;<font>Есть</font>
-												<?php } else {?><font style="color:red"><?php echo post_custom('Available'); ?></font>
-												<?php }?></div>
-												<?php if (post_custom('Price')) {?><div class="h_1">Цена: <?php echo post_custom('Price'); ?> руб</div><?php }?>
+					<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" rel="shadowbox[<?php the_ID();?>]">
+						<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>&w=455&h=250&zc=1&q=70" alt="<?php the_title();?>" width="455px" height="250px" class="products_img"> -->
+						<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" width="455px" height="250px" class="products_img">
+					</a>
+					<div style="float:left; width:190px">
+						<?php if (post_custom('Image2')) {?>
+						<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>" rel="shadowbox[<?php the_ID();?>]">
+							<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
+							<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
+						</a>
+						<?php if (post_custom('Image3')) {?>
+						<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>" rel="shadowbox[<?php the_ID();?>]">
+							<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
+							<img srcc="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
+						</a><?php }?>
+						<?php if (post_custom('Image4')) {?>
+						<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>" rel="shadowbox[<?php the_ID();?>]">
+							<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
+							<img srcc="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
+						</a><?php }?>
+						<?php if (post_custom('Image5')) {?>
+						<a href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>" rel="shadowbox[<?php the_ID();?>]">
+							<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>&w=180&h=110&zc=1&q=65" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" > -->
+							<img srcc="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>" alt="<?php the_title();?>" width="180px" height="110px" class="products_img" >
+						</a><?php }?>
+						<?php }?>
+						<div class="h_2">Наличие: <?php if (post_custom('Available') == 'да') {?>
+							<!-- <img src="<?php echo bloginfo('template_url'); ?>/images/tick_circle.png" width=16 height=16> -->
+							<!-- <img src="<?php echo bloginfo('template_url'); ?>/images/a21/check-2.png" width=16 height=16> -->
+							<!-- <i class="fa fa-check-circle" aria-hidden="true"></i> -->
+							<i class="icon-ok-circled" aria-hidden="true"></i>
+							<!-- &nbsp;<font style="color:green">Есть</font> -->
+							&nbsp;<font>Есть</font>
+							<?php } else {?><font style="color:red"><?php echo post_custom('Available'); ?></font>
+							<?php }?></div>
+							<?php if (post_custom('Price')) {?><div class="h_1">Цена: <?php echo post_custom('Price'); ?> руб</div><?php }?>
 
 
-													<!-- ВИДЕО -->
-													<?php if ($sid_video_code = trim(get_post_meta($post->ID, 'sid_video_code', true)) and $sid_video_code != ''): ?>
-														<?php $sid_video_size_w = (int) trim(get_post_meta($post->ID, 'sid_video_size_w', true));
-        $sid_video_size_h                    = (int) trim(get_post_meta($post->ID, 'sid_video_size_h', true));
+								<!-- ВИДЕО -->
+								<?php if ($sid_video_code = trim(get_post_meta($post->ID, 'sid_video_code', true)) and $sid_video_code != ''): ?>
+									<?php $sid_video_size_w = (int) trim(get_post_meta($post->ID, 'sid_video_size_w', true));
+        $sid_video_size_h               = (int) trim(get_post_meta($post->ID, 'sid_video_size_h', true));
         if ($sid_video_size_w > 460) {
             $sid_video_size_w = 460;
         }
@@ -92,47 +92,47 @@ if (is_category($products) || in_category($products)) {
         }
 
         ?>
-														<div id="sid_video_block" style="margin: 10px 0;">
+									<div id="sid_video_block" style="margin: 10px 0;">
 
-															<object style="height: <?=$sid_video_size_h?>px; width: <?=$sid_video_size_w?>px"><param name="movie" value="http://www.youtube.com/v/<?=$sid_video_code?>?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/<?=$sid_video_code?>?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" height="<?=$sid_video_size_h?>" width="<?=$sid_video_size_w?>"></object>
+										<object style="height: <?=$sid_video_size_h?>px; width: <?=$sid_video_size_w?>px"><param name="movie" value="http://www.youtube.com/v/<?=$sid_video_code?>?version=3"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><embed src="http://www.youtube.com/v/<?=$sid_video_code?>?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" height="<?=$sid_video_size_h?>" width="<?=$sid_video_size_w?>"></object>
 
-														</div>
-													<?php endif;?>
-											<!-- ВИДЕО END -->
+									</div>
+								<?php endif;?>
+							<!-- ВИДЕО END -->
 
-											<?php if (post_custom('Weight')) {?><strong>Вес:</strong> <?php echo post_custom('Weight'); ?> гр.<br><?php }?>
-												<?php if (post_custom('Cover')) {?><strong>Покрытие:</strong> <?php echo post_custom('Cover'); ?><?php }?>
+							<?php if (post_custom('Weight')) {?><strong>Вес:</strong> <?php echo post_custom('Weight'); ?> гр.<br><?php }?>
+								<?php if (post_custom('Cover')) {?><strong>Покрытие:</strong> <?php echo post_custom('Cover'); ?><?php }?>
 
-												</div>
-												<div class="products_cat_desc" style="margin-left:200px; color:black;">
+								</div>
+								<div class="products_cat_desc" style="margin-left:200px; color:black;">
 
-													<?php the_content();?>
+									<?php the_content();?>
 
-													<p class="post_meta">Подходит на автомобили: <?php the_category(', ')?></p>
+									<p class="post_meta">Подходит на автомобили: <?php the_category(', ')?></p>
 
-												</div>
+								</div>
 
-												<div style="clear:both"></div>
+								<div style="clear:both"></div>
 
-											</div>
+							</div>
 
-										<?php endwhile;?>
+						<?php endwhile;?>
 
-										<div class="more_entries">
-											<?php if (function_exists('wp_pagenavi')) {?><?php wp_pagenavi();?><?php }?>
-										</div>
+						<div class="more_entries">
+							<?php if (function_exists('wp_pagenavi')) {?><?php wp_pagenavi();?><?php }?>
+						</div>
 
-										<!-- конец условия категории продукция -->
-										<?php } elseif (is_category($cats) || in_category($cats)) {
+						<!-- конец условия категории продукция -->
+						<?php } elseif (is_category($cats) || in_category($cats)) {
     ?>
 
-										<!-- начало условия категории материалы -->
+							<!-- начало условия категории материалы -->
 
-										<?php while (have_posts()): the_post();?>
+							<?php while (have_posts()): the_post();?>
 
-													<div class="entry">
-														<h1 class="single">
-															<?php
+									<div class="entry">
+										<h1 class="single">
+											<?php
     if ($_SERVER['REQUEST_URI'] == '/materials/vacuum-technology/razjem-dlya-vacuumnogo-shlanga-hose-connector-2') {
 
             echo 'Разъем для вакуумного шланга / Hose connector Артикул № 390142-1';
@@ -150,8 +150,8 @@ if (is_category($products) || in_category($products)) {
     }
     ?></h1>
 
-													<!-- <div style="float:left; width:215px"> -->
-													<div class="as21-block-imgs">
+										<!-- <div style="float:left; width:215px"> -->
+										<div class="as21-block-imgs">
 							<?php /*
     <!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image1');?>&w=210&h=210&zc=1&q=70" alt="<?php the_title(); ?>" width="210px" height="210px" class="products_img"> -->
     <!-- <img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1');?>" alt="<?php the_title(); ?>" width="210px" height="210px" class="products_img"> -->
@@ -211,37 +211,39 @@ if (is_category($products) || in_category($products)) {
     <?php  **** as21 old markup**** */?>
 
 
-								<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>&w=210&h=210&zc=1&q=70" alt="<?php the_title();?>" width="210px" height="210px" class="products_img"> -->
-								<!-- <img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" width="210px" height="210px" class="products_img"> -->
-								<a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>">
-									<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" width="210px" height="210px" class="products_img">
-								</a>
+    <!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>&w=210&h=210&zc=1&q=70" alt="<?php the_title();?>" width="210px" height="210px" class="products_img"> -->
+    <!-- <img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" width="210px" height="210px" class="products_img"> -->
+    <a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>">
+    	<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" width="210px" height="210px" class="products_img">
+    </a>
 
-								<?php if (post_custom('Image2')) {?>
-								<a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>">
-									<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
-									<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
-								</a>
-								<?php }?>
-								<?php if (post_custom('Image3')) {?>
-								<a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>">
-									<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
-									<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
-								</a><?php }?>
-								<?php if (post_custom('Image4')) {?>
-								<a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>">
-									<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
-									<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
-								</a><?php }?>
-								<?php if (post_custom('Image5')) {?>
-								<a  data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>">
-									<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
-									<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
-								</a><?php }?>
+    <?php if (post_custom('Image2')) {?>
+    <a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>">
+    	<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
+    	<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image2'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
+    </a>
+    <?php }?>
+    <?php if (post_custom('Image3')) {?>
+    <a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>">
+    	<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
+    	<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image3'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
+    </a><?php }?>
+    <?php if (post_custom('Image4')) {?>
+    <a data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>">
+    	<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
+    	<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image4'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
+    </a><?php }?>
+    <?php if (post_custom('Image5')) {?>
+    <a  data-fancybox="gallery" href="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>">
+    	<!-- <img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>&w=80&h=80&zc=1&q=65" alt="<?php the_title();?>" width="80px" height="80px" class="products_img"> -->
+    	<img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image5'); ?>" alt="<?php the_title();?>" width="80px" height="80px" class="products_img">
+    </a><?php }?>
 
-							</div>
-							<!-- <a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128; ?>" data-prod-id="<?php echo get_the_ID(); ?>" data-title="<?php the_title();?>" data-price="<?php echo post_custom('Price'); ?>">Купить</a> -->
-							<br>
+
+</div>
+
+ <a style="width: 214px;box-sizing: border-box;" href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128; ?>" data-prod-id="<?php echo get_the_ID(); ?>" data-title="<?php the_title();?>" data-price="<?php echo post_custom('Price'); ?>">Купить</a> 
+<br>
 
 <!--   <form action="option1.php">
    <p>
@@ -300,7 +302,7 @@ if (is_category($products) || in_category($products)) {
 				</div>
 
 
-			<div class="products_cat_desc" style="margin-left:225px; color:black;">
+				<div class="products_cat_desc" style="margin-left:225px; color:black;">
 
 
 
@@ -353,15 +355,15 @@ if (is_category($products) || in_category($products)) {
 
 																	<?php if (have_posts()): while (have_posts()): the_post();?>
 
-																						<div class="entry">
-																							<h1 class="single"><?php the_title();?></h1>
-																							<p class="post_meta"><span>Posted in <?php the_category(', ')?>. Written by <?php the_author()?> on <?php the_time('F jS, Y')?></p>
-																							<?php if (post_custom('Image1')) {?><img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" class="products_img" style="float:left"></a><?php }?>
-																								<?php the_content();?>
-																								<div style="clear:both"></div>
-																							</div>
+																				<div class="entry">
+																					<h1 class="single"><?php the_title();?></h1>
+																					<p class="post_meta"><span>Posted in <?php the_category(', ')?>. Written by <?php the_author()?> on <?php the_time('F jS, Y')?></p>
+																					<?php if (post_custom('Image1')) {?><img src="<?php echo get_option('home'); ?>/<?php echo post_custom('Image1'); ?>" alt="<?php the_title();?>" class="products_img" style="float:left"></a><?php }?>
+																						<?php the_content();?>
+																						<div style="clear:both"></div>
+																					</div>
 
-																						<?php endwhile;endif;?>
+																				<?php endwhile;endif;?>
 
 
 
@@ -371,6 +373,9 @@ if (is_category($products) || in_category($products)) {
 																		<?}?>
 
 																		<?php
+
+/* **** as21 new**** *
+
 // alex_debug(0,1,'SESSION',$_SESSION);
 
 // rwmb_meta( $field_id, $args, $post_id );
@@ -390,31 +395,34 @@ if (!empty($values)):
     echo '<table class="as21_prod_options">';
     $k = 0;
     foreach ($values as $value) {
-        // echo $value['title'].' - '. $value['price']."<br>";
+// echo $value['title'].' - '. $value['price']."<br>";
         echo '<tr ><td class="title">' . $value['title'] . '<span>Арт.:' . $value['artikul'] . "</span></td>";?>
-																					<td class="price"><?php echo $value['price']; ?> р <span>(Баз.цена: <?php echo $value['base_price']; ?> р)<span></td>
-				<!--
-									<td><input type="text" class="count" value="1"></td>
-							        <td><a style="display:block;" href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-option="<?php echo get_the_ID() . '_' . $k; ?>" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128; ?>" data-prod-id="<?php echo get_the_ID(); ?>" data-qty="1" data-title="<?php the_title();?>" data-price="<?php echo post_custom('Price'); ?>">Купить</a></td>
-							    -->
-							    <td><input type="number" step="1" class="count" value="1" min="1">
-							    	<a style="display:block;" href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-option="<?php echo get_the_ID() . '_' . $k; ?>" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128; ?>" data-prod-id="<?php echo get_the_ID(); ?>" data-qty="1" data-title="<?php the_title();?>" data-price="<?php echo post_custom('Price'); ?>">Купить</a></td>
-							    	<?php
+																				<td class="price"><?php echo $value['price']; ?> р <span>(Баз.цена: <?php echo $value['base_price']; ?> р)<span></td>
+			<!--
+			<td><input type="text" class="count" value="1"></td>
+			<td><a style="display:block;" href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-option="<?php echo get_the_ID() . '_' . $k; ?>" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128; ?>" data-prod-id="<?php echo get_the_ID(); ?>" data-qty="1" data-title="<?php the_title();?>" data-price="<?php echo post_custom('Price'); ?>">Купить</a></td>
+		-->
+		<td><input type="number" step="1" class="count" value="1" min="1">
+			<a style="display:block;" href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-option="<?php echo get_the_ID() . '_' . $k; ?>" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128; ?>" data-prod-id="<?php echo get_the_ID(); ?>" data-qty="1" data-title="<?php the_title();?>" data-price="<?php echo post_custom('Price'); ?>">Купить</a></td>
+			<?php
     echo '</tr>';
         $k++;
     }
     echo '</table>';
 endif;
+
+* **** as21 new**** */
+
 ?>
 
-					</div><!-- / #main -->
+</div><!-- / #main -->
 
 
-					<?php get_sidebar("2");?>
+<?php get_sidebar("2");?>
 
 
 
-					<?php
+<?php
 // echo "single.php";
 get_footer();
 ?>

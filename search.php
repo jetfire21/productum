@@ -75,8 +75,7 @@
 
 
                     <div class="wrap_buy_stock">
-<!--                         <a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128;?>" data-prod-id="<?php echo get_the_ID();?>" data-title="<?php the_title(); ?>" data-price="<?php echo post_custom('Price');?>">Купить</a>
-    <br> -->
+
     
     <?php if (post_custom('Available')=='да') { ?>
     <!-- <img src="<?php echo bloginfo('template_url'); ?>/images/tick_circle.png" width=16 height=16>&nbsp;<b>Есть в наличии!</b> -->
@@ -94,6 +93,8 @@
     </b>
 </p>
 <?php } ?>
+                        <a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128;?>" data-prod-id="<?php echo get_the_ID();?>" data-title="<?php the_title(); ?>" data-price="<?php echo post_custom('Price');?>">Купить</a>
+    <br>
 </div>
 </div>
 

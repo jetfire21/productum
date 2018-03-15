@@ -3,3 +3,27 @@
 
 -footer.php - add field address + change field name on fio 176,179
 functions.php - 591,594
+
+------------
+single.php
+archive.php
+search.php
+карточка товара (страница товара) фотки превьющки справа от главного изображения
+http://graphite-pro.ru/materials/prepreg/sigrapreg-prepreg-iz-karbonovoj-tkani-245-g-m-s
+наличие выше цены и изменена иконка
+
+добавлены варианты товара
+
+3 версии:
+single-old.php - старая
+single-new-no-options.php - промежуточная
+single-new.php - c вариантами товара
+
+update single.php промежут
+style.css
+fontello шрифты
+single
+search
+archive
+
+

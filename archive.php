@@ -288,8 +288,8 @@ $new_query = new WP_Query($args);
 										Цена: <b style="font-size:16px; color:gray; font-weight:bold;"><?php echo post_custom('Price');?> руб
 									</b>
 								</p>
-								<!-- <a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128;?>" data-prod-id="<?php echo get_the_ID();?>" data-title="<?php the_title(); ?>" data-price="<?php echo post_custom('Price');?>">Купить</a> -->
-								<!-- <a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128;?>" data-prod-id="<?php echo get_the_ID();?>" data-title="<?php the_title(); ?>" data-price="<?php echo post_custom('Price');?>">Купить</a> -->
+	
+								<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="<?php echo get_option('home'); ?>/<?php echo $img_128_128;?>" data-prod-id="<?php echo get_the_ID();?>" data-title="<?php the_title(); ?>" data-price="<?php echo post_custom('Price');?>">Купить</a>
 								<br>
 							<?php } ?>
 						<?php if (post_custom('Price')) { ?> </div> <!--wrap_buy_stock --> <?php } ?>
