@@ -1,0 +1,12 @@
+/* alex code */
+.wp-admin .ui-widget-overlay{ opacity: 0 !important; }
+.ui-widget-content {left:200px;}
+.rwmb-meta-box .rwmb-label {width: 0;}
+.rwmb-meta-box .rwmb-input {width: 100% !important;}
+.rwmb-meta-box .rwmb-fieldset_text {width: 85px;}
+/*
+ input[name="as21_prod_options[0][title]"], input[name="as21_prod_options[1][title]"],
+ input[name="as21_prod_options[2][title]"],input[name="as21_prod_options[3][title]"] {width: 367px !important; background:#ccc;}
+*/
+.rwmb-meta-box .as21_rwmb_title {width: 367px !important; }
+/*.rwmb-meta-box label:first-child .rwmb-fieldset_text{width: 367px;}*/

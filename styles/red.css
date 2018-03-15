@@ -1,0 +1,63 @@
+a, a:link, a:visited {
+	color:#e92132;
+}
+
+a:hover, a:active, a.active {
+	color:red;
+}
+
+ul.sf-menu li.page_item a:hover, ul.sf-menu li.page_item.current_page_item a {
+	color:#e92132;
+}
+
+#home #header {
+	background:transparent url(red/bg-header-home.jpg) no-repeat scroll 0 0 !important;
+}
+
+#home #header ul#featuredNav li a {
+	background-color:#af0814;
+	border-color:#920a10;
+	color:#FFFFFF;
+}
+
+#home #header ul#featuredNav li a:hover {
+	border-color:#7c0409;
+}
+
+ul#showcase li a:hover, ul#showcase li a.active {
+	border:0px solid #920a10;
+}
+
+#footerWrap ul li, #wp-calendar {
+	background-color: #eeeeee;
+	border: 1px solid #dddddd;
+	color:#333333;
+}
+
+#footerWrap ul li.clickready.hover {
+	border: 1px solid #666666;
+}
+
+#footerWrap ul li a:hover, #wp-calendar caption {
+	background: #333333;
+	color: #fff;
+}
+
+#sidebar ul li {
+	background-color: #eeeeee;
+	border: 1px solid #dddddd;
+	color:#333333;
+}
+
+#sidebar ul li.clickready.hover {
+	border: 1px solid #666666;
+}
+
+#sidebar ul li a {
+	color: #6a6a6a;
+}
+
+#sidebar ul li a:hover {
+	background: #333333;
+	color: #fff;
+}

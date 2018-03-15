@@ -1,0 +1,148 @@
+
+
+
+ @media only screen and (min-width : 280px) {
+    html { height: 100%; }
+    body { background: #c0c0c0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; padding: 0;margin: 10px 0 0 0;}
+    #main { width: 310px; margin: 0 auto; }
+    a { text-decoration: none; color: #005c9c; }
+    a:HOVER { text-decoration: underline; }
+    img { vertical-align: bottom; }
+    .block { overflow: visible; }
+    .clear { clear: both; }
+    .mod_header { padding: 0 8px 8px 8px; }
+    .mod_header a { color: #000; text-decoration: none; }
+    .mod_header a:hover { color: #000; text-decoration: none; }
+    .links { display: inline-block; float: right; }
+    #header { position: relative; width: 490px; margin: 10px auto; color: #707173; font-size: 11px; }
+    #header a { color: #707173; text-decoration: none; }
+    #header a:hover { text-decoration: underline; }
+    #header .links { position: absolute; top: 0; right: 0; }
+    
+    .mod_laminatrechner { position: relative; width: 310px; }
+    .mod_laminatrechner .header { width: 310px; height: 0; padding-top: 85px; overflow: hidden; background: url("../../design/laminatrechner/images/header_en-mob.png") no-repeat; color: #58585a; }
+    .lang_de .mod_laminatrechner .header { background: url("../../design/laminatrechner/images/header_de-mob.png") no-repeat; }
+    .mod_laminatrechner .header h1 { margin: 0 0 10px; }
+    .mod_laminatrechner .formbody { background: #cce1f0; }
+    .mod_laminatrechner .formbody { color: #000; font-size: 14px; }
+    .mod_laminatrechner .formbody input, .mod_laminatrechner .formbody select { font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+    .mod_laminatrechner .formbody .group { position: relative; margin: 0 5px; padding: 10px 0px; border: none; }
+    .mod_laminatrechner .formbody .group .toggler { position: absolute; display: block; left: 15px; top: 11px; width: 18px; height: 50px; background: url("../../design/laminatrechner/images/toggler_back.png") no-repeat; cursor: pointer; }
+    .mod_laminatrechner .formbody .group .toggler .nob { position: absolute; left: 0; top: 2px; width: 18px; height: 18px; background: url("../../design/laminatrechner/images/toggler_nob.png") no-repeat; }
+    .mod_laminatrechner .formbody .group .toggler input { display: none; }
+    .mod_laminatrechner .formbody .group ul { margin: 1px 0 0 25px; padding: 0; }
+    .mod_laminatrechner .formbody .group li { list-style: none; margin: 0; padding: 3px 0; }
+    .mod_laminatrechner .formbody .group li.first { padding-top: 0; }
+    .mod_laminatrechner .formbody .group li.last { padding-bottom: 0; }
+    .mod_laminatrechner .formbody .group label { position: absolute; left: 0px; display: block; width: 100%; line-height: 1.7em; font-weight: bold; }
+    .mod_laminatrechner .formbody .group li label { left: 40px; width: 190px; }
+    .mod_laminatrechner .formbody .group li.disabled { color: #9a9899; }
+    .mod_laminatrechner .formbody .group input { width: 100%; margin: 0; padding: 1px; }
+    .mod_laminatrechner .formbody .group .selection { position: relative; display: none; margin: 23px 0 0 0; left: 0px; width: 100%; }
+    .mod_laminatrechner .formbody .group .selection .footnote { margin: 5px 0 0; font-size: 0.7em; line-height: 1.1em; }
+    .mod_laminatrechner .formbody .group select { width: 100%; padding: 1px 0; -webkit-appearance: menulist-button; }
+    .mod_laminatrechner .formbody .group select optgroup { margin: 5px 0; font-style: normal; color: #808080; }
+    .mod_laminatrechner .formbody .group select optgroup option { color: #000; }
+    .mod_laminatrechner .formbody .group .manual { position: relative; display: block; left: 215px; width: 75px; }
+    .mod_laminatrechner .formbody .group .manual .reset { position: absolute; display: block; right: 14px; top: 3px; width: 16px; height: 15px; background: url("../../design/laminatrechner/images/manual_reset.png") no-repeat; cursor: pointer; }
+    .mod_laminatrechner .formbody .group li .manual { left: 190px; }
+    .ie7 .mod_laminatrechner .formbody .group .manual input { position: relative; left: -5px; }
+    .ie7 .mod_laminatrechner .formbody .group li .manual input { position: relative; left: -30px; }
+    .mod_laminatrechner .formbody .group .unit { position: absolute; left: -40px; top: 0; padding-top: 3px; display: block; white-space: nowrap; }
+    .mod_laminatrechner .footer { position: relative; width: 310px; height: 113px; background: url("../../design/laminatrechner/images/footer-mob.png") no-repeat; }
+    .mod_laminatrechner .footer .smd { position: absolute; left: -15px; bottom: 30px; width: 0; padding-left: 10px; height: 95px; overflow: hidden; background: url("../../design/laminatrechner/images/smd.png") no-repeat; }
+    .mod_laminatrechner .submit_container input { position: absolute; left: 45px; top: 43px; width: 225px; height: 0; padding: 43px 0 0 0; margin: 0; border: none; background: url("../../design/laminatrechner/images/button_en.png") no-repeat; overflow: hidden; cursor: pointer; }
+    .lang_de .mod_laminatrechner .submit_container input { background: url("../../design/laminatrechner/images/button_de.png") no-repeat; }
+    .mod_laminatrechner .paperslot { position: absolute; top: 108px; left: 12px; width: 286px; height: 315px; overflow: hidden; }
+    .mod_laminatrechner .paperslot .slotshadow { position: absolute; left: 4px; top: 0; width: 285px; height: 1px; background: url("../../design/laminatrechner/images/slot_shadow.png") center bottom no-repeat; z-index: 2; }
+    .mod_laminatrechner .paper { position: absolute; top: -20px; left: 0; width: 256px; height: 0; padding: 20px 15px 20px; background: url("../../design/laminatrechner/images/paper.png") center bottom no-repeat; color: #58585A; font-size: 12px; }
+    .mod_laminatrechner .paper .print { position: relative; right: 0px; top: 5px; padding-left: 25px; background: url("../../design/laminatrechner/images/printer.png") left center no-repeat; cursor: pointer; margin-bottom: 10px; float: right; clear: right; }
+    .mod_laminatrechner .paper h3 { margin: 0 0 8px; color: #58585a; font-size: 20px; }
+    .mod_laminatrechner .paper .result { border-collapse: collapse; width: 100%; }
+    .mod_laminatrechner .paper .result .col_1 { text-align: right; }
+    .mod_laminatrechner .paper .result td { padding: 3px 0 4px; border-top: solid 1px #a3a3a4; color: #58585a; font-weight: bold; }
+    .mod_laminatrechner .paper .result .first td { padding-top: 10px; }
+     
+     .mod_laminatrechner {
+         -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.57);
+        box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.57);
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+         border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+     }
+     #tl_laminatrechner .header{
+         border-top-left-radius: 15px;
+         border-top-right-radius: 15px;
+     }
+     .mod_laminatrechner .footer { 
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+             
+     }
+
+}
+
+/* +++++++++++++  Middle Large +++++++++++++ */
+@media only screen and (min-width : 540px) {
+    html { height: 100%; }
+    body { background: #c0c0c0; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+    a { text-decoration: none; color: #005c9c; }
+    a:HOVER { text-decoration: underline; }
+    img { vertical-align: bottom; }
+    .block { overflow: visible; }
+    .clear { clear: both; }
+    .mod_header { padding: 0 8px 8px 8px; }
+    .mod_header a { color: #000; text-decoration: none; }
+    .mod_header a:hover { color: #000; text-decoration: none; }
+    .links { display: inline-block; float: right; }
+    #header { position: relative; width: 490px; margin: 10px auto; color: #707173; font-size: 11px; }
+    #header a { color: #707173; text-decoration: none; }
+    #header a:hover { text-decoration: underline; }
+    #header .links { position: absolute; top: 0; right: 0; }
+    #main { width: 510px; margin: 0 auto; }
+    .mod_laminatrechner { position: relative; width: 510px; }
+    .mod_laminatrechner .header { width: 510px; height: 0; padding-top: 128px; overflow: hidden; background: url("../../design/laminatrechner/images/header_en.png") no-repeat; color: #58585a; }
+    .lang_de .mod_laminatrechner .header { background: url("../../design/laminatrechner/images/header_de.png") no-repeat; }
+    .mod_laminatrechner .header h1 { margin: 0 0 10px; }
+    .mod_laminatrechner .formbody { background: #cce1f0; }
+    .mod_laminatrechner .formbody { color: #000; font-size: 14px; }
+    .mod_laminatrechner .formbody input, .mod_laminatrechner .formbody select { font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+    .mod_laminatrechner .formbody .group { position: relative; margin: 0 5px; padding: 10px 15px; border: none; }
+    .mod_laminatrechner .formbody .group .toggler { position: absolute; display: block; left: 15px; top: 11px; width: 18px; height: 50px; background: url("../../design/laminatrechner/images/toggler_back.png") no-repeat; cursor: pointer; }
+    .mod_laminatrechner .formbody .group .toggler .nob { position: absolute; left: 0; top: 2px; width: 18px; height: 18px; background: url("../../design/laminatrechner/images/toggler_nob.png") no-repeat; }
+    .mod_laminatrechner .formbody .group .toggler input { display: none; }
+    .mod_laminatrechner .formbody .group ul { margin: 1px 0 0 25px; padding: 0; }
+    .mod_laminatrechner .formbody .group li { list-style: none; margin: 0; padding: 3px 0; }
+    .mod_laminatrechner .formbody .group li.first { padding-top: 0; }
+    .mod_laminatrechner .formbody .group li.last { padding-bottom: 0; }
+    .mod_laminatrechner .formbody .group label { position: absolute; left: 15px; display: block; width: 215px; line-height: 1.7em; font-weight: bold; }
+    .mod_laminatrechner .formbody .group li label { left: 40px; width: 190px; }
+    .mod_laminatrechner .formbody .group li.disabled { color: #9a9899; }
+    .mod_laminatrechner .formbody .group input { width: 200px; margin: 0; padding: 1px; }
+    .mod_laminatrechner .formbody .group .selection { position: relative; display: none; margin: 0; left: 215px; width: 250px; }
+    .mod_laminatrechner .formbody .group .selection .footnote { margin: 5px 0 0; font-size: 0.7em; line-height: 1.1em; }
+    .mod_laminatrechner .formbody .group select { width: 247px; padding: 1px 0; -webkit-appearance: menulist-button; }
+    .mod_laminatrechner .formbody .group select optgroup { margin: 5px 0; font-style: normal; color: #808080; }
+    .mod_laminatrechner .formbody .group select optgroup option { color: #000; }
+    .mod_laminatrechner .formbody .group .manual { position: relative; display: block; left: 215px; width: 215px; }
+    .mod_laminatrechner .formbody .group .manual .reset { position: absolute; display: block; right: 14px; top: 3px; width: 16px; height: 15px; background: url("../../design/laminatrechner/images/manual_reset.png") no-repeat; cursor: pointer; }
+    .mod_laminatrechner .formbody .group li .manual { left: 190px; }
+    .ie7 .mod_laminatrechner .formbody .group .manual input { position: relative; left: -5px; }
+    .ie7 .mod_laminatrechner .formbody .group li .manual input { position: relative; left: -30px; }
+    .mod_laminatrechner .formbody .group .unit { position: absolute; left: 215px; top: 0; padding-top: 3px; display: block; white-space: nowrap; }
+    .mod_laminatrechner .footer { position: relative; width: 510px; height: 113px; background: url("../../design/laminatrechner/images/footer.png") no-repeat; }
+    .mod_laminatrechner .footer .smd { position: absolute; left: -15px; bottom: 30px; width: 0; padding-left: 10px; height: 95px; overflow: hidden; background: url("../../design/laminatrechner/images/smd.png") no-repeat; }
+    .mod_laminatrechner .submit_container input { position: absolute; left: 150px; top: 43px; width: 225px; height: 0; padding: 43px 0 0 0; margin: 0; border: none; background: url("../../design/laminatrechner/images/button_en.png") no-repeat; overflow: hidden; cursor: pointer; }
+    .lang_de .mod_laminatrechner .submit_container input { background: url("../../design/laminatrechner/images/button_de.png") no-repeat; }
+    .mod_laminatrechner .paperslot { position: absolute; top: 108px; left: 10px; width: 490px; height: 315px; overflow: hidden; }
+    .mod_laminatrechner .paperslot .slotshadow { position: absolute; left: 4px; top: 0; width: 490px; height: 1px; background: url("../../design/laminatrechner/images/slot_shadow.png") center bottom no-repeat; z-index: 2; }
+    .mod_laminatrechner .paper { position: absolute; top: -20px; left: 0; width: 420px; height: 0; padding: 24px 34px 20px; background: url("../../design/laminatrechner/images/paper.png") center bottom no-repeat; color: #58585A; font-size: 14px; }
+    .mod_laminatrechner .paper .print { position: relative; right: 0px; top: 5px; padding-left: 25px; background: url("../../design/laminatrechner/images/printer.png") left center no-repeat; cursor: pointer; margin-bottom: 10px; float: right; clear: right; }
+    .mod_laminatrechner .paper h3 { margin: 0 0 8px; color: #58585a; font-size: 20px; }
+    .mod_laminatrechner .paper .result { border-collapse: collapse; width: 100%; }
+    .mod_laminatrechner .paper .result .col_1 { text-align: right; }
+    .mod_laminatrechner .paper .result td { padding: 3px 0 4px; border-top: solid 1px #a3a3a4; color: #58585a; font-weight: bold; }
+    .mod_laminatrechner .paper .result .first td { padding-top: 10px; }
+}

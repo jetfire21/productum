@@ -1,0 +1,11 @@
+30-11-2017
+-archive.php - orderby date for cat 'new products' 222-223
+
+add field address + change field name on fio + fix double send client order
+footer.php -  176,179
+functions.php - 591,594,611,705
+style.css - 1914
+
+single.php - 260 commen string
+// if( (bool)$_GET['dev'] === true ) print_r(get_the_tags());
+// if (has_tag()) {wp_related_posts(); }

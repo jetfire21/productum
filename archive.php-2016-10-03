@@ -1,0 +1,305 @@
+<?php get_header(); ?>
+			<?php get_sidebar(); ?>
+						<?php
+						$cats = array('3'); // создаем массив и вносим родительскую рубрику (id=3 - материалы)
+						$categories = get_categories('child_of=3');
+						foreach ($categories as $cate) {
+						$cats[] = $cate->cat_ID; // пополняем массив IDами деткок
+						}
+
+						$products = array('4'); // создаем массив и вносим родительскую рубрику
+						$categories = get_categories('child_of=4');
+						foreach ($categories as $cate) {
+						$products[] = $cate->cat_ID; // пополняем массив IDами деткок
+						}
+                        ?>
+
+			<div id="main" <?php if (is_category($cats) || in_category($cats)) echo 'class="grid_12"'; else echo 'class="grid_8"'; ?>>
+			
+			<h4 class="breadcrumbs"><?php echo(get_category_parents($cat, TRUE, ' &raquo; ')); ?></h4>
+
+
+			<?php
+if ($_SERVER['REQUEST_URI'] == '/category/materials/polyurethane-varnish') {
+
+         echo '<h1>Полиуретановые лаки</h1>';
+     } 
+else if ($_SERVER['REQUEST_URI'] == '/category/materials/gelcoat/gelcoat-gelcoat-materials') {
+
+         echo '<h1>Эпоксидные гелькоуты - готовые комплекты</h1>';
+     }
+else if ($_SERVER['REQUEST_URI'] == '/category/materials/epoxy-resins/ready-kit') {
+
+         echo '<h1>Эпоксидные смолы - готовые комплекты</h1>';
+     }
+else if ($_SERVER['REQUEST_URI'] == '/category/materials/glass-fabric/rukava') {
+
+         echo '<h1>Рукава из стеклоткани купить</h1>';
+     }
+else if ($_SERVER['REQUEST_URI'] == '/category/materials/carbon-fabric/braid') {
+
+         echo '<h1>Карбоновые рукава купить</h1>';
+     }
+if (($_SERVER['REQUEST_URI'])=="/category/decorate/bmv/5-series-sedan") { echo '<h1>5 Series Sedan</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/bmv") { echo '<h1>BMW</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/bmv/bmw-118") { echo '<h1>BMW-118</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/bmv/bmw-39") { echo '<h1>BMW-39</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/bmv/bmw-60") { echo '<h1>BMW-60</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/honda") { echo '<h1>Honda</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/jaguar") { echo '<h1>Jaguar</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/mercedes") { echo '<h1>Mercedes</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/porsche") { echo '<h1>Porsche</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/toyota") { echo '<h1>Toyota</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/yamaha") { echo '<h1>Yamaha</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-fabric/non-crimp-fabrics") { echo '<h1>Без плетения</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/vacuum-technology/vacuum-tools-pumps") { echo '<h1>Вакуумные насосы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/vacuum-technology") { echo '<h1>Вакуумные технологии</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/fillers/fibrous") { echo '<h1>Волокнистые</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/decorate-fabric") { echo '<h1>Декоративные ткани</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/tools/for-mould-construction") { echo '<h1>Для изготовления форм</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/tools/tools-laminate") { echo '<h1>Для ламинирования</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/tools/dlya-raskroya") { echo '<h1>Для раскроя</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/epoxy-resins/dobavki") { echo '<h1>Добавки</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/vacuum-technology/zhertvennye-tkani-peel-ply") { echo '<h1>Жертвенные ткани / Peel ply</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/izgotovlenie-osnastki") { echo '<h1>Изготовление оснастки</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/tools") { echo '<h1>Инструменты</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-semi/composite-semi-rods") { echo '<h1>Карбоновые прутки</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/glues") { echo '<h1>Клеи</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-semi") { echo '<h1>Композитные полуфабрикаты</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials") { echo '<h1>Материалы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-fabric/multiaksialnye-tkani") { echo '<h1>Мультиаксиальные ткани</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-starter-kit") { echo '<h1>Наборы карбон «Сделай Сам»</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/fillers") { echo '<h1>Наполнители</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/decorate/page/2") { echo '<h1>Наши работы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-fabric/non-woven") { echo '<h1>Нетканный</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/tools/tools-knifes") { echo '<h1>Ножницы, ножи</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/vacuum-technology/plenki") { echo '<h1>Пленки</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/poliesterovye-smoly") { echo '<h1>Полиэстеровые смолы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/vacuum-technology/vpityvaushie-materialy-setki") { echo '<h1>Проводящие материалы / Сетки</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/separators") { echo '<h1>Разделительные составы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/sandvich") { echo '<h1>Сендвичные материалы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/silicone-compounds-materials") { echo '<h1>Силиконовые компаунды</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/glass-fabric/glass-tapes") { echo '<h1>Стеклоленты</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/glass-fabric/glass-fabric-glass-fabric") { echo '<h1>Стеклоткань</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/fillers/spherical") { echo '<h1>Сферические</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/epoxy-resins/termic-resins") { echo '<h1>Термостойкие эпоксидные смолы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/technology") { echo '<h1>Технологии</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/fillers/thixotropy-agents") { echo '<h1>Тиксотропные агенты</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-aramid") { echo '<h1>Угле-арамидный микс</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-fabric/carbon-fibre-tape") { echo '<h1>Углеленты</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/carbon-fabric/fabrics") { echo '<h1>Углеткани</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/vacuum-technology/fitingi-aksessuary") { echo '<h1>Фитинги / Аксессуары</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/epoxy-resins/himostoykie-smoly") { echo '<h1>Химостойкие эпоксидные смолы</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/epoxy-resins/epoksidnye-klei") { echo '<h1>Эпоксидные клеи</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/epoxy-resins/fill-resins") { echo '<h1>Эпоксидные смолы для заливки</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/epoxy-resins/laminating-resins") { echo '<h1>Эпоксидные смолы для ламинирования</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/materials/vacuum-technology/fitingi-aksessuary/razjem-dlya-vacuumnogo-shlanga-hose-connector") { echo '<h1>Разъем для вакуумного шланга Hose connector Артикул № 390150-1</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/bazaltovye-tkani") { echo '<h1>Базальтовые ткани</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/vacuum-technology/germetiziruyushie-zhguty") { echo '<h1>Герметизирующие жгуты</h1>';}
+else if (($_SERVER['REQUEST_URI'])=="/category/materials/epoxy-resins/kolerovochnye-pasty") { echo '<h1>Колеровочные пасты</h1>';}
+
+
+
+
+?>
+
+
+						<?php
+						if (is_category($products) || in_category($products)) { ?>
+						<!-- начало условия категории продукция -->
+						
+	<!-- начало цикла 1 -->		
+	<?php if ($_SERVER['REQUEST_URI']=="/category/products") {?>
+	<h1 class="single">Карбоновая защита картера</h1>
+	<p>В автомобилестроении и тюнинге карбон используется не только как декоративный, но и как защитный материал, повышающий в несколько раз устойчивость изделия к термическим, химическим и механическим воздействиям. Карбоновая защита картера пришла на смену алюминиевым и титановым пластинам, которые имели различные минусы, были более тяжелыми, что сказывалось на аэродинамических свойствах автомобиля. Самое главное в защите двигателя – устойчивость к физическому воздействию, проще говоря – ударам. Карбоновая защита картера не имеет аналогов по сочетанию основных характеристик. У нас вы сможете заказать защиту картера из карбона для любой модели автомобиля.</p><br />
+	<?php } ?>
+	
+	
+	<?php while (have_posts()) : the_post(); ?>
+
+						<div class="post">
+						
+							<div style="float:left; width:190px">
+							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+							<img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image1');?>&w=180&h=110&zc=1&q=65" alt="<?php the_title(); ?>" class="products_img" width="180px" height="110px"></a>
+							</div>
+						
+							<div class="products_cat_desc" style="margin-left:200px">
+							<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+							<p><?php if (post_custom('Price')) { ?><b style="font-size:16px; color:gray; font-weight:bold;"><?php echo post_custom('Price');?> руб</b><br><br><?php } ?>
+<?php if (post_custom('Available')=='да') { ?><img src="<?php echo bloginfo('template_url'); ?>/images/tick_circle.png" width=16 height=16>&nbsp;<b>Есть в наличии!</b><?php } ?>
+<?php if (post_custom('Available')=='нет') { ?><b>Нет в наличии</b><?php } ?>
+<?php if (post_custom('Available')=='на заказ') { ?><b>На заказ</b><?php } ?>
+</p>
+							
+							
+							</div>
+							
+							<div style="clear:both"></div>
+							<p class="post_meta">Подходит на автомобили: <?php the_category(', ') ?></p>
+						
+						</div>
+				
+	<!-- конец цикла 2 -->		<?php endwhile; ?>
+				
+						<div class="more_entries" style="clear:both">
+						<?php if (function_exists('wp_pagenavi')) { ?><?php wp_pagenavi(); ?><?php } ?>
+						</div>				 
+				
+						<!-- конец условия категории продукция -->
+						
+						<!-- начало условия категории материалы -->
+                    	<?php } elseif (is_category(3)) { ?>
+			<?php $col = 1; ?>
+                        <?php
+						$categories = get_categories('parent=3');
+						foreach ($categories as $categ) {
+						$catsg[] = $categ->cat_ID; // пополняем массив IDами деткок
+						}
+                        ?>
+
+							<!-- начало цикла 1 -->		<?php foreach ($catsg as $categ_id):  ?>
+                                                        <?php $sch = 0; ?>
+                                                        <?php if ($categ_id == 3) continue; ?>
+             <?php if ($col == 1) echo "<div class=\"row\">"; ?>
+
+			<div class="col<?php echo $col;?>" >
+
+
+                            <?php if(function_exists('ciii_term_images')) ciii_term_images( 'category', 'show_description=0&term_ids='.$categ_id ); ?>
+
+							<h4><a href="<?php echo get_category_link( $categ_id ); ?>" rel="bookmark" title="<?php echo get_cat_name($categ_id);?>"><?php echo get_cat_name($categ_id);?></a></h4>
+			</div>
+
+			<?php if ($col == 4) {echo "</div>"; $sch = 1;} if($col == 1) {$col = 2;}  else { if($col != 1) { if($col == 4) {$col = 1;}  if($col == 3) {$col =  4;} if($col == 2) {$col =  3;}} } ?>
+	<!-- конец цикла 2 -->		<?php endforeach; ?>
+            <?php if ($sch == 0) echo "</div>"; ?> 
+
+						<?php } elseif (in_category($cats)) { ?>
+                        <?php query_posts($query_string."&posts_per_page=-1'");?>
+<?php
+
+$args = array(
+	'posts_per_page' => -1,
+    'cat' => $cat,
+	'orderby' => 'meta_value',
+    'meta_key' => 'Available',
+    'order' => 'ASC'
+);
+$new_query = new WP_Query($args);
+?>
+			<?php $col = 1; ?>
+			
+			<?php if ($_SERVER['REQUEST_URI']=="/category/materials/aramid-fabric") { ?>
+			<h1 class="single">Арамидная ткань</h1>
+			<p>Научные изыскания в совокупности с современными технологиями все больше проникают в повседневную жизнь. Появляются новые материалы, имеющие высокие износостойкие и прочностные характеристики, благодаря которым им находится широкое применение в различных отраслях производства. Мы говорим о таких материалах, как карбон, кевлар, гибридные ткани. </p>
+			<p>Предлагаем вам купить кевлар – современное легкое, термостойкое защитное волокно, обладающее невероятно высокими баллистическими свойствами. Кроме того, кевлар экологичен и абсолютно безопасен для здоровья. У нас вы можете купить кевлар по выгодной цене в любом количестве, а также заказать различные изделия из карбона и кевлара дешевле, чем в других компаниях.</p>
+			<?php }
+			elseif ($_SERVER['REQUEST_URI']=="/category/materials/carbon-fabric") {
+			 ?>
+			<h1 class="single">Карбоновое волокно и углеткань</h1>
+			<p>Основная сфера деятельности нашей компании: продажа углеткани различных видов, изготовление изделий из карбона, кевлара и гибридных материалов на заказ. В каталоге представлена карбоновая ткань однонаправленная и с плетением, гибкие оплеточные рукава, углеленты. У нас вы можете купить углеткань по самой выгодной цене в любом объеме, а также карбоновое волокно для производства. Кроме продажи углеткани, мы занимаемся изготовлением различных изделий из карбона для тюнинга автомобилей. В каталоге представлен весь ассортимент товара. Если вы не нашли необходимый вам товар, свяжитесь с нашими менеджерами, мы постараемся выполнить ваш заказ.</p>
+			 <?php }
+			elseif ($_SERVER['REQUEST_URI']=="/category/materials/carbon-semi/composite-semi-plate") {
+			 ?>
+			<h1 class="single">Карбоновый лист</h1>
+			<p>Предлагаем вам карбоновые пластины и листы стандартных размеров для дальнейшего применения в производстве и отделке. Наиболее прочный на сегодняшний день материал, который нашел свое применение во многих сферах - в том числе, медицине, спорте, тюнинге авто и мототехники, производстве защитных покрытий - карбон. Карбоновые пластины изготавливаются на специальном оборудовании в заводских условиях, что предотвращает появление подделок. Качество материала подтверждено сертификатом. От крупных оптовых заказов карбонового листа, до розничной покупки различных готовых изделий и изготовления их на заказ – звоните нам, оставляйте заявки по электронной почте  или приезжайте в офис.</p>
+			 <?php }
+			elseif ($_SERVER['REQUEST_URI']=="/category/materials/carbon-semi/composite-semi-tubes") {
+			 ?>
+			 <h1 class="single">Карбоновые трубки</h1>
+			<p>Карбоновая труба, или, иначе, оплеточный рукав, давно заменили привычные защитные материалы. То, что карбоновые трубки можно применять не только в защите кабельных систем, но и, благодаря отличным растягивающим свойствам, в других отраслях, послужило хорошим толчком к разработке предложений по использованию карбона и различных смол. Одно из приоритетных направлений – медицинское протезирование. Другое, не менее актуальное – автомобилестроение и тюнинг. У нас в продаже всегда в наличии карбоновая труба стандартного диаметра в бобинах по 5 метров. Обращаем ваше внимание, что в комплект к карбоновым трубкам необходимо приобретать специальные смолы. </p>
+			 <?php }
+			elseif ($_SERVER['REQUEST_URI']=="/category/materials/epoxy-resins") {
+			 ?>
+			 <h1 class="single">Прозрачная эпоксидная смола для карбона, для творчества. Эпоксидная смола ювелирная</h1>
+			<p>Эпоксидная смола стала применяться как прочный скрепляющий материал гораздо раньше, чем был изобретен карбон. Но в сочетании эти два материала дали поистине удивительный результат. Прозрачная смола для карбона пластична, что позволяет делать из труб и листов материала изделия различных форм. В нашем магазине вы сможете купить эпоксидную смолу различных объемов и свойств, по самым выгодным ценам. К каждому товару вы найдете подробное описание и рекомендации к применению. О крупных оптовых партиях прозрачной эпоксидной смолы для карбона следует предварительно договариваться по телефону или оставлять заявки по электронной почте.</p>
+			 <?php } 
+			 elseif ($_SERVER['REQUEST_URI']=="/category/materials/gelcoat") {
+			 ?>
+			  <h1 class="single">Эпоксидный гелькоут</h1>
+			<p>На основе эпоксидных смол изготавливается пигментированный материал эластичного или полуэластичного типа, который применяется в качестве финишной декоративной отделки для изделий из карбона, кевлара, гибридных материалов. Эпоксидный гелькоут прост в применении, может наноситься методом распыления, не требует особых навыков работы и отлично полируется. Его применяют в авиа, авто и судостроении. Гелькоут не только придает изделию высокие декоративные свойства, но и повышает защитные характеристики, стойкость к воздействию атмосферных явлений, агрессивнх сред и механического воздействия. Правильно подобрать необходимый вам эпоксидный гелькоут вам помогут наши консультанты.</p>
+			 <?php } 
+			 elseif ($_SERVER['REQUEST_URI']=="/category/materials/glass-fabric") {
+			 ?>
+			 <h1 class="single">Стеклоткань для тюнинга</h1>
+			<p>В нашем магазине вы можете приобрести различную стеклоткань для тюнинга авто, авиа и мототехники, водных судов. Большой выбор различных тканей, в том числе цветных, позволит подобрать вам необходимые товары в нужном вам количестве. Мы продаем стеклоткань для тюнинга оптом и в розницу, от одного листа, до большой партии. На складе всегда в наличии различные виды стеклоткани и смол. Если вы хотите заказать готовые изделия из стеклоткани, карбона, кевлара, гибридных материалов, например, спойлеры для автомобилей, позвоните нам или приезжайте к нам в офис. Мы предлагаем большой ассортимент по самым низким ценам. </p>
+			 <?php } 
+			 elseif ($_SERVER['REQUEST_URI']=="/category/materials/prepreg") {
+			 ?>
+			 <h1 class="single">Препреги</h1>
+			<p>В ассортименте нашего магазина предложены однонаправленные и твилловые препреги, использующиеся в авиа и автостроительстве. Это отличный материал, который легко подвергается формовке и обработке в соответствии с желаемым результатом. Препрег имеет отличительную особенность от других стекломатериалов – наличие пропитки. То есть, препрег – это полуфабрикат, готовый к работе и не требующий дополнительных составов. Он невероятно актуален в создании прочных и легких конструкций, требующих упругости поверхности. Подробное описание и характеристики материала вы можете найти в соответствующем разделе, а также получить консультацию наших менеджеров при визите в офис или по телефонам.</p>
+			 <?php } ?>
+			 
+			 
+			
+							<!-- начало цикла 1 -->		<?php while ($new_query->have_posts()) : $new_query->the_post(); ?>
+                            <?php $sch = 0; ?>
+             <?php if ($col == 1) echo "<div class=\"row\">"; ?>
+
+			<div class="col<?php echo $col;?>" id="post-<?php the_ID(); ?>">
+
+
+							<a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+							<img src="<?php echo bloginfo('template_url'); ?>/scripts/timthumb.php?src=<?php echo get_option('home'); ?>/<?php echo post_custom('Image1');?>&w=128&h=128&zc=1&q=65" alt="<?php the_title(); ?>" class="products_img" style="margin-bottom:5px" width="128px" height="128px"></a>
+							<h4 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
+							<p><?php if (post_custom('Price')) { ?><b style="font-size:16px; color:gray; font-weight:bold;"><?php echo post_custom('Price');?> руб</b><br><br><?php } ?><?php if (post_custom('Available')=='да') { ?><img src="<?php echo bloginfo('template_url'); ?>/images/tick_circle.png" width=16 height=16>&nbsp;<b>Есть в наличии!</b><?php } ?>
+<?php if (post_custom('Available')=='нет') { ?><b>Нет в наличии</b><?php } ?>
+<?php if (post_custom('Available')=='на заказ') { ?><b>На заказ</b><?php } ?></p>
+
+			</div>
+
+			<?php if ($col == 4) {echo "</div>"; $sch = 1;} if($col == 1) {$col = 2;}  else { if($col != 1) { if($col == 4) {$col = 1;}  if($col == 3) {$col =  4;} if($col == 2) {$col =  3;}} } ?>
+	<!-- конец цикла 2 -->		<?php endwhile; ?>
+			<?php if ($sch == 0) echo "</div>"; ?>
+				
+						<div class="more_entries" style="clear:both; padding-top:10px;">
+						<?php if (function_exists('wp_pagenavi')) { ?><?php wp_pagenavi(); ?><?php } ?>
+						</div>
+
+
+
+
+						
+	<!-- если не продукция и не материалы... -->	<?php } else { ?>
+				
+				<?php if (have_posts()) : ?>
+				
+				<?php while (have_posts()) : the_post(); ?>
+                
+				<div class="post">
+					
+					<h2 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+					
+					 <p class="post_meta"><span>Posted in <?php the_category(', ') ?>. <?php the_time('F jS, Y') ?></p>
+					
+					<div class="entry">
+						<?php if ( get_option('woo_the_content') ) { the_content(); } else { the_excerpt(); ?>
+                        <div class="btn-continue"><a href="<?php the_permalink() ?>">Continue Reading</a></div>
+                        <?php } ?>
+					</div>
+				
+				</div>
+				
+				<?php endwhile; ?>
+				
+				<div class="more_entries" style="clear:both">
+					<?php if (function_exists('wp_pagenavi')) { ?><?php wp_pagenavi(); ?><?php } ?>
+				</div>
+				
+				<?php else : ?>
+				
+				<h2>Not Found</h2>
+				
+				<?php include (TEMPLATEPATH . '/searchform.php'); ?>
+				
+				<?php endif; ?>
+				
+						<!-- конец проверки на категорию -->
+						<?php } ?>
+
+			</div><!-- / #main -->
+
+
+<?php if (!is_category($cats) || !in_category($cats)) get_sidebar("2"); ?>
+<?php get_footer(); ?>
