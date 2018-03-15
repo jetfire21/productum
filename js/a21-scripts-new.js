@@ -245,6 +245,10 @@ jQuery(document).ready(function() {
 		jQuery.magnificPopup.close();
 		jQuery(".go_form_oformit_zakaz").trigger("click");
 
+		//new
+		// console.log( jQuery("#btn_send_from_oform_zakaz").html() );
+		// jQuery("#btn_send_from_oform_zakaz").attr('disabled','');
+
     });
 
 	jQuery('.go_form_oformit_zakaz').magnificPopup({
@@ -268,7 +272,30 @@ jQuery(document).ready(function() {
 
 			    	jQuery("#btn_send_from_oform_zakaz").click( function(e){
 
-			    		e.preventDefault();					
+			    		e.preventDefault();
+					
+						//new
+
+			    		var phone = jQuery("#a21_form_oformit_zakaz .phone").val().trim();
+			    		var mail = jQuery("#a21_form_oformit_zakaz .mail").val().trim();
+			    		var name = jQuery("#a21_form_oformit_zakaz .name").val().trim();
+			    		var address = jQuery("#a21_form_oformit_zakaz .address").val().trim();
+			    		// console.log( phone );
+			    		// console.log( typeof phone );
+			    		// console.log( typeof phone.length );
+			    		// console.log( phone.length );
+			    		var errors = '';
+			    		if (name.length === 0) errors = errors + 'Вы не заполнили ФИО !<br> ';
+			    		if (phone.length === 0) errors = errors + 'Вы не заполнили Телефон !<br>';
+			    		if (mail.length === 0) errors = errors + 'Вы не заполнили E-mail !<br>';
+			    		if (address.length === 0) errors = errors + 'Вы не заполнили Адрес доставки !';
+			    		// console.log(errors);
+			    		if(errors.length !== 0){
+				    		jQuery('#a21_form_oformit_zakaz .as21_mes_errors').remove();
+				    		jQuery('#a21_form_oformit_zakaz form').prepend('<div class="as21_mes_errors">'+errors+'</div>');
+				    		return false;
+				    	}
+			    		// jQuery("#btn_send_from_oform_zakaz").attr('disabled','disabled');
 
 						 // console.log(jQuery("#a21_cart_sum").html());	
 						jQuery(".a21_top_cart #a21_cart_sum").html('0');

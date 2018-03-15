@@ -25,16 +25,15 @@
 						<a href="http://l95202t8.beget.tech/materials/glass-fabric/%d1%81%d1%82%d0%b5%d0%ba%d0%bb%d0%be%d1%82%d0%ba%d0%b0%d0%bd%d1%8c-%d0%b1%d0%b8%d0%b0%d0%ba%d1%81%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%b0%d1%8f-430-%d0%b3%d0%bc%c2%b2-%d1%88%d0%b8%d1%80%d0%b8%d0%bd" rel="bookmark">Стеклоткань биаксиальная 430 г/м², ширина 127 см / Glass non-crimp fabric 430 g/m² (biaxial, silane) 127 cm</a>
 					</p>
 
-
+					<p class="a21-product-price">
+						Цена: <b style="font-size:16px; color:gray; font-weight:bold;">490 руб
+					</b>
 
 				</p><div class="wrap_buy_stock">
 				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech/wp-content/uploads/2016/06/A8969.jpg" data-prod-id="10502" data-title="Стеклоткань биаксиальная 430 г/м², ширина 127 см / Glass non-crimp fabric 430 g/m² (biaxial, silane) 127 cm" data-price="490">Купить</a>
 				<br>
-				<!-- <img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16"> -->
-				<i class="icon-ok-circled" aria-hidden="true"></i>&nbsp;<span class="a21-stock">Есть в наличии!</span>
-				<p class="a21-product-price">
-					Цена: <b style="font-size:16px; color:gray; font-weight:bold;">490 руб
-				</b>
+				<img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b>
+				<p></p>
 			</div>
 		</div>
 
@@ -336,18 +335,15 @@
 						<a href="http://l95202t8.beget.tech/materials/carbon-fabric/%d1%83%d0%b3%d0%bb%d0%b5%d1%80%d0%be%d0%b4%d0%bd%d0%b0%d1%8f-%d1%82%d0%ba%d0%b0%d0%bd%d1%8c-%d0%b0%d1%81%d0%bf%d1%80%d0%be-a-120" rel="bookmark">Углеродная ткань Аспро A-120</a>
 					</p>
 
+					<p class="a21-product-price">
+						Цена: <b style="font-size:16px; color:gray; font-weight:bold;">2239 руб
+					</b>
 
 				</p><div class="wrap_buy_stock">
 				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech/wp-content/uploads/2016/12/120gr.jpg" data-prod-id="11591" data-title="Углеродная ткань Аспро A-120" data-price="2239">Купить</a>
 				<br>
-				<!-- <img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16"> -->
-				<!-- &nbsp;<b>Есть в наличии!</b> -->
-				<i class="icon-ok-circled" aria-hidden="true"></i>&nbsp;<span class="a21-stock">Есть в наличии!</span>
+				<img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b>
 				<p></p>
-
-				<p class="a21-product-price">
-					Цена: <b style="font-size:16px; color:gray; font-weight:bold;">2239 руб
-				</b>
 			</div>
 		</div>
 
@@ -408,9 +404,7 @@
 				</p><div class="wrap_buy_stock">
 				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech/wp-content/uploads/2016/08/A41155.jpg" data-prod-id="10832" data-title="A-SPREAD углелента 30 г/м² (UD, IMS 65) 27 мм" data-price="2190">Купить</a>
 				<br>
-				<!-- <img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b> -->
-				<i class="icon-ok-circled" aria-hidden="true"></i>&nbsp;<span class="a21-stock">Есть в наличии!</span>
-
+				<img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b>
 				<p></p>
 			</div>
 		</div>
@@ -465,17 +459,14 @@
 						<a href="http://l95202t8.beget.tech/materials/silicone-compounds-materials/%d0%bf%d0%bb%d0%b0%d1%81%d1%82%d0%b8%d0%ba-%d0%bf%d0%be%d0%bb%d0%b8%d1%83%d1%80%d0%b5%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d1%8b%d0%b9-%d1%83%d0%bd%d0%b8%d0%b2%d0%b5%d1%80%d1%81%d0%b0%d0%bb%d1%8c%d0%bd%d1%8b" rel="bookmark">Пластик полиуретановый универсальный LasilCast1</a>
 					</p>
 
-
-				<div class="wrap_buy_stock">
-				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech/wp-content/uploads/2016/10/LC-1.jpg" data-prod-id="11345" data-title="Пластик полиуретановый универсальный LasilCast1" data-price="3099">Купить</a>
-				<br>
-				<!-- <img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b> -->
-				<i class="icon-ok-circled" aria-hidden="true"></i>&nbsp;<span class="a21-stock">Есть в наличии!</span>
 					<p class="a21-product-price">
 						Цена: <b style="font-size:16px; color:gray; font-weight:bold;">3099 руб
 					</b>
 
-				</p>
+				</p><div class="wrap_buy_stock">
+				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech/wp-content/uploads/2016/10/LC-1.jpg" data-prod-id="11345" data-title="Пластик полиуретановый универсальный LasilCast1" data-price="3099">Купить</a>
+				<br>
+				<img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b>
 				<p></p>
 			</div>
 		</div>
@@ -537,14 +528,7 @@
 				</p><div class="wrap_buy_stock">
 				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech/wp-content/uploads/2016/10/20161103_172715.jpg" data-prod-id="11356" data-title="Стартовый набор материалов «Сделай Сам – Вакуумная инфузия»" data-price="10990">Купить</a>
 				<br>
-				<!-- <img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b> -->
-				<i class="icon-ok-circled" aria-hidden="true"></i>&nbsp;<span class="a21-stock">Есть в наличии!</span>
-
-									<p class="a21-product-price">
-						Цена: <b style="font-size:16px; color:gray; font-weight:bold;">3099 руб
-					</b>
-
-				</p>
+				<img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b>
 				<p></p>
 			</div>
 		</div>
@@ -606,9 +590,7 @@
 				</p><div class="wrap_buy_stock">
 				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech//wp-content/uploads/2016/11/20161103_171658.jpg" data-prod-id="11362" data-title="Стартовый набор материалов для ремонта удочки" data-price="2099">Купить</a>
 				<br>
-				<!-- <img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b> -->
-				<i class="icon-ok-circled" aria-hidden="true"></i>&nbsp;<span class="a21-stock">Есть в наличии!</span>
-
+				<img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b>
 				<p></p>
 			</div>
 		</div>
@@ -670,10 +652,7 @@
 				</p><div class="wrap_buy_stock">
 				<a href="#add_product_to_cart" class="a21_popup-modal product-buy gradient" data-img-url="http://l95202t8.beget.tech/wp-content/uploads/2016/10/A73329.jpg" data-prod-id="11368" data-title="Углеткань биаксиальная, 200 г/м² ( 12 К ), 127 см/ Carbon non-crimp fabric 200 g/m² (biaxial, 12k) 127 cm" data-price="1609">Купить</a>
 				<br>
-				<!-- <img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b> 
-				-->
-				<i class="icon-ok-circled" aria-hidden="true"></i>&nbsp;<span class="a21-stock">Есть в наличии!</span>
-
+				<img src="http://l95202t8.beget.tech/wp-content/themes/productum/images/tick_circle.png" width="16" height="16">&nbsp;<b>Есть в наличии!</b>
 				<p></p>
 			</div>
 		</div>
